@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSS Gradient Generator</title>
+</head>
+<body>
+   
+<h1>Create a CSS Gradient</h1>
+<form>
+    <div class="create">
+            <label for="orientation">Orientation:</label>
+            <select>
+                <option value="to top right">Bottom left to top right</option>
+                <option value="to bottom right">Top left to bottom right</option>
+                <option value="">Top to Bottom</option>
+                <option value="to right">Left to Right</option>
+            </select>
+
+            <br>
+            <label for="color1">Colors: </label>
+            <input type="color" name="color1" value="#FE3E8D">
+            <input type="color" name="color2" value="#FEBF00"> 
+            <br>
+    </div>
+    <button type="submit">Create Gradient</button>
+</form>
+
+<span>CSS Code:</span>
+<div class="result">
+    <p class="codeCSS">background-image: linear-gradient(to top right, #fe3e8d, #febf00);</p>
+</div>
+    
+<script src="app.js"></script>
+</body>
+</html>

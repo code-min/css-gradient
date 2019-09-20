@@ -1,0 +1,94 @@
+body {
+    background-image: linear-gradient(to top right, #FE3E8D, #FEBF00);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 25px;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 100px;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    position: relative;
+    bottom: 5px;
+    transition: bottom ease-in-out;
+}
+
+select, input {
+    margin-bottom: 50px;
+}
+
+option, select {
+    font-size: 20px;
+}
+
+label {
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+input {
+    background-color: white;
+    border: none;
+}
+
+.create {
+    margin: 0 auto;
+    width: 50vh;
+    text-align: start;
+}
+
+.result {
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+span {
+    font-size: 30px;
+    border-bottom: 4px solid white;
+    margin-right: 20px;
+}
+
+select {
+    appearance: none;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    margin-top: 25px;
+    font-family: 'Raleway';
+    padding: 10px 20px;
+}
+
+select option {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    outline: none;
+}
+
+
